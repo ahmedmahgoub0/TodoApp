@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tasks">المهام</string>
+    <string name="settings">الإعدادات</string>
+    <string name="enter_your_task">أضف مهمة</string>
+    <string name="add_new_task">أضف مهمة جديدة</string>
+    <string name="description">الوصف</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="delete">حذف</string>
+    <string name="update_task">تحديث المهمة</string>
+    <string name="date">التاريخ</string>
+    <string name="language">اللغة</string>
+    <string name="mode">الوضع</string>
+    <string name="light">فاتح</string>
+    <string name="night">مظلم</string>
+
+    <string-array name="language">
+        <item>@string/language</item>
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+    <string-array name="mode">
+        <item>@string/mode</item>
+        <item>@string/light</item>
+        <item>@string/night</item>
+    </string-array>
+</resources>

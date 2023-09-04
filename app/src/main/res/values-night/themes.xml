@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorPrimaryVariant">@color/dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/dark</item>
+        <item name="colorSecondaryVariant">@color/dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="main_bg">
+        <item name="android:background">@color/dark</item>
+    </style>
+    <style name="bottom_navigation_bar" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="android:background">@color/dark_50</item>
+    </style>
+    <style name="app_bar">
+        <item name="android:background">@color/dark</item>
+    </style>
+    <style name="fab" parent="@style/Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:backgroundTint">@color/dark</item>
+    </style>
+    <style name="task_card_view">
+        <item name="android:backgroundTint">@color/dark_50</item>
+    </style>
+    <style name="calendar_color">
+        <item name="android:src">@drawable/ic_calendar_dark</item>
+    </style>
+    <style name="calendar_card_color">
+        <item name="cardBackgroundColor">@color/dark_50</item>
+    </style>
+    <style name="text_in_calendar_card">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="add_task_color">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="spinner_bg">
+        <item name="android:background">@drawable/custom_rounded_button_dark</item>
+    </style>
+</resources>
